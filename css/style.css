@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1.25rem;
+  font-family: 'Nerko One', 'Times New Roman', Times, serif;
+}
+
+body {
+  display: flex;
+  background-color: rgb(255, 151, 250);
+  flex-direction: column;
+}
+
+img {
+  display: block;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  flex-direction: column;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+  width: 400px;
+  flex-shrink: 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: rgb(67, 67, 67);
+}
+
+.links a:hover {
+  color: rgb(120, 120, 120);
+}
+
+ul {
+  list-style: none;
+}
